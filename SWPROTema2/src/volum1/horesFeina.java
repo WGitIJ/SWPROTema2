@@ -1,4 +1,6 @@
-//TODO A partir d'un sencer que representa les hores treballades per un/a treballador/a i un real que representa el preu en € de cada hora, calcula que ha de cobrar aquesta persona en acabar la setmana. Suposa que totes les hores extra, les que passen de 40, doblen el preu.
+//* A partir d'un sencer que representa les hores treballades per un/a treballador/a i un real que representa el preu
+//* en € de cada hora, calcula que ha de cobrar aquesta persona en acabar la setmana. Suposa que totes les hores
+//* extra, les que passen de 40, doblen el preu.
 
 package volum1;
 

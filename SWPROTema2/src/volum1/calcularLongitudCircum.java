@@ -1,4 +1,4 @@
-//? Calcula la longitud d'una circumferència a partir del radi.
+//* Calcula la longitud d'una circumferència a partir del radi.
 
 package volum1;
 

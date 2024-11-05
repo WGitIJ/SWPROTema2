@@ -1,3 +1,5 @@
+//* Repeteix l'exercici 14 de forma que mostri només els nombres parells.
+
 package volum1;
 
 public class numerosPares {

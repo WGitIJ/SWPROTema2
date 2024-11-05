@@ -1,3 +1,7 @@
+//* Crea un programa que recorri els 10 primers sencers. Si el nombre és 5 ha d'executar una instrucció continue,
+//* si no l'ha de mostrar per pantalla. Repeteix-lo amb un break. Quina és la diferència? Mostra explicació per
+//* pantalla.
+
 package volum1;
 
 public class continueBreak {
