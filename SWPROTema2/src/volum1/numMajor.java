@@ -1,19 +1,19 @@
-//?Donats dos sencers a i b, mostra quin és el major de dos sencers, per exemple
+//* Donats dos sencers a i b, mostra quin és el major de dos sencers, per exemple
+//* El major és a.
 
 package volum1;
 
 public class numMajor {
     public static void main(String[] args) {
-        int a = 3;
-        int b = 4;
-        int c = 10;
+        int a = 0;
+        int b = 5;
 
-        if (a>b && a>c){
+        if (a>b){
             System.out.println("El mayor es A");
-        } else if (b>a && b>c) {
+        } else if (b<a) {
             System.out.println("El mayor es B");
-        } else{
-            System.out.println("El mayor es C");
+        }else {
+            System.out.println("Son iguales");
         }
     }
 }

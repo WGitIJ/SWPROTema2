@@ -1,4 +1,5 @@
-//? Intercanvia els valors de dues variables del mateix tipus.Mostra-les per pantalla abans i després de fer el canvi.Per exemple si a=2 i b=3,al final a=3 i b=2.
+//* Intercanvia els valors de dues variables del mateix tipus.Mostra-les per pantalla abans i després de fer el canvi
+//* .Per exemple si a=2 i b=3,al final a=3 i b=2.
 
 package volum1;
 
