@@ -5,10 +5,10 @@ package volum1;
 public class calcularLongitudCircum {
 
     public static void main(String[] args) {
-        final double pi = 3.14;
+        final double PI = 3.14;
         double diametro = 45;
 
-        double longitud = pi * diametro;
+        double longitud = PI * diametro;
         System.out.println("El diametro de la circumferencia es " + longitud);
     }
 
