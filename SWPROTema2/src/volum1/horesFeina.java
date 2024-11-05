@@ -19,8 +19,5 @@ public class horesFeina {
         salario = 40 * precioHora + salarioExtra;
 
         System.out.println("Salario: " + salario);
-
-
-
     }
 }

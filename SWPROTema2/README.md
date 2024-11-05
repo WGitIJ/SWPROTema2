@@ -1,6 +1,6 @@
-## Getting Started
+## Ejercicios Básicos Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+En este repositorio encontramos ejercicios básicos de java
 
 ## Folder Structure
 
