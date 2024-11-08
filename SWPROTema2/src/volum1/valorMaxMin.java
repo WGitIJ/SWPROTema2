@@ -6,18 +6,22 @@ public class valorMaxMin {
     public static void main(String[] args) {
         int a = 4;
         int b = 3;
-        int max;
-        int min;
+        int c= 7;
+        int max = a;
+        int min = a;
 
-        if (a>b){
-            max = a;
-            min = a;
-        } else if (b>a) {
+        if (b>max){
             max = b;
-            min = a;
-        } else{
-            System.out.println("A=B");
+        } else if (c>max) {
+            max = c;
         }
-        System.out.println("El vlaor max es: ");
+        if (b<min){
+            min = b;
+        } else if (c<min) {
+            min = c;
+        }
+
+        System.out.println("El valor max es: " + max);
+        System.out.println("El valor min es: " + min);
     }
 }

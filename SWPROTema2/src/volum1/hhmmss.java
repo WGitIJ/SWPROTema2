@@ -12,9 +12,9 @@ public class hhmmss {
         sec = sec%60;
        }
        if (min>60) {
-        horas = min/60;
-        min = min%60;
-       }
-       System.out.println(horas + " Horas "  + min +" Minutos " + sec + " Segundos ");
+           horas = min/60;
+           min = min%60;
+        }
+        System.out.println(horas + " Horas "  + min +" Minutos " + sec + " Segundos ");
     }
 }
