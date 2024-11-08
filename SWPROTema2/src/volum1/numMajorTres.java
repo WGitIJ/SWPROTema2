@@ -7,16 +7,16 @@ public class numMajorTres {
         int a = 4;
         int b = 3;
         int c = 9;
-        int max = 0;
-        int min;
 
         if (a>b && a>c){
-            max = a;
+            System.out.println("El mayor es A");
         } else if (b>a && b>c) {
-            max = b;
+            System.out.println("El mayor es B");
         } else if (c>a && c>b) {
-            max = c;
+            System.out.println("El mayor es C");
+        } else{
+            System.out.println("Son igaules");
         }
-        System.out.println(max);
+
     }
 }
