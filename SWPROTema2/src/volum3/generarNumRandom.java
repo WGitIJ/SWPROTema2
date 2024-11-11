@@ -7,9 +7,15 @@ public class generarNumRandom {
     public static void main(String[] args) {
         int max = 5;
         int min = 0;
-        for (int i = 0; i <= max;) {
-            int numAleatorio = (int) (Math.random()*((max+min)+1));
-
+        int contador = 0;
+        int numAleatorio = (int) (Math.random()*((max+min)+1));
+        for (int i = 0; i <= max;i++) {
+            while (numAleatorio != i){
+                contador++;
+                numAleatorio = (int) (Math.random()*((max+min)+1));
+            }
+            System.out.println(numAleatorio);
         }
+        System.out.println("Intentos: "+ contador);
     }
 }
