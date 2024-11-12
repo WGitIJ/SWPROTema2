@@ -4,9 +4,9 @@
 package volum3;
 public class random {
     public static void main(String[] args) {
-        double max = 1;
-        double min = 0;
-        double numAleatorio = (double) (Math.random()*((max+min)+1));
+        int max = 10;
+        int min = 0;
+        int numAleatorio = min+(int)(Math.random()*((max-min)))+1;
         System.out.println("El número random es: " + numAleatorio);
     }
 }
