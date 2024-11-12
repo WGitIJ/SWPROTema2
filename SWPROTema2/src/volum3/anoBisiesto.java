@@ -31,11 +31,11 @@ public class anoBisiesto {
                 System.out.println("Tiene 30 dias");
                 break;
             case 2:
-                if (year%4!=0){
-                    System.out.println("Tienen 28 dias");
+                if (year%4 ==0 && year%400==0){
+                    System.out.println("Tienen 29 dias");
                     break;
                 } else{
-                    System.out.println("Tiene 29 días");
+                    System.out.println("Tiene 28 días");
                     break;
                 }
 
