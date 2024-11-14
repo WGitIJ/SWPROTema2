@@ -3,7 +3,7 @@ package volum4;
 
 public class mostrarArray {
     public static void main(String[] args) {
-        int num[];
+        int[] num;
         num = new int [10];
 
         for (int i = 0; i < num.length; i++) {
