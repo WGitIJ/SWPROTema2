@@ -27,5 +27,4 @@ public class comparacionArrays  {
     //? Podemos ver que no son iguales, aunque tengan el mismo tamaño y el mismo valor, no ocupan el mismo sitio en la
     //? memoria, ya que la comparación compara dos variables ubicadas en distintas puntas de la memoria
 
-
 }
