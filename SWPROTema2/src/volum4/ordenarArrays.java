@@ -52,7 +52,7 @@ public class ordenarArrays {
             numAleatorio = 1+(int)(Math.random()*((10-1)+1));
             array[i] = numAleatorio;
         }
-        System.out.println(Arrays.toString(array));
+        System.out.println("Este es el array formado de manera aleatoria: " + Arrays.toString(array));
 
         //Ordenar Array
         if (array.length >= 3){
@@ -65,7 +65,9 @@ public class ordenarArrays {
                     }
                 }
             }
-            System.out.println(Arrays.toString(array));
+            System.out.println("Este es el array ordenado: " + Arrays.toString(array));
+        } else{
+            System.out.println("No se puede ordenar porque no dispone de tres posiciones"    );
         }
     }
 }
