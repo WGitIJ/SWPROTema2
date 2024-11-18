@@ -4,6 +4,8 @@
 //* l'array tengui tres posicions, sinó l'algorisme no funciona.
 package volum4;
 
+import java.util.Arrays;
+
 public class ordenarArrays {
     public static void main(String[] args) {
         arrayOrdenada();
@@ -43,19 +45,27 @@ public class ordenarArrays {
         int tamanoAleatorio = 2+(int)(Math.random()*((4-2)+1));
         int numAleatorio;
         int[] array = new int[tamanoAleatorio];
+        int aux;
 
         //Asignación de valores en el Array
         for (int i = 0; i < array.length; i++) {
             numAleatorio = 1+(int)(Math.random()*((10-1)+1));
             array[i] = numAleatorio;
-            System.out.println(array[i]);
         }
+        System.out.println(Arrays.toString(array));
 
         //Ordenar Array
-        for (int i = 0; i < array.length; i++) {
-
+        if (array.length >= 3){
+            for (int i = 0; i < array.length-1; i++) {
+                for (int j = 0; j < array.length - i - 1; j++) {
+                    if (array[j]>array[j+1]){
+                        aux = array[j+1];
+                        array[j+1] = array[j];
+                        array[j] = aux;
+                    }
+                }
+            }
+            System.out.println(Arrays.toString(array));
         }
-
-
     }
 }
