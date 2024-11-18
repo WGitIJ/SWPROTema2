@@ -1,3 +1,7 @@
+//* Escriu un altre classe que generi aleatòriament la longitud de dos arrays(mínim 2). Crea els arrays d'aquestes
+//* longituds. Els valors poden ser seqüencials o aleatoris, com vulguis. Compara-los. Evidentment si no tenen la
+//* mateixa longitud no són iguals.
+
 package volum4;
 
 public class comparacionArrays  {

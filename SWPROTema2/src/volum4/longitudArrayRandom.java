@@ -18,6 +18,6 @@ public class longitudArrayRandom {
             sonIguales = false;
         }
 
-        System.out.println("¿Array y ArrayB son iguales? " + sonIguales);
+        System.out.println("¿ArrayA y ArrayB son iguales? " + sonIguales);
     }
 }

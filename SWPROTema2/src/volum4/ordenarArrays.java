@@ -48,6 +48,7 @@ public class ordenarArrays {
         for (int i = 0; i < array.length; i++) {
             numAleatorio = 1+(int)(Math.random()*((10-1)+1));
             array[i] = numAleatorio;
+            System.out.println(array[i]);
         }
 
         //Ordenar Array
@@ -56,8 +57,5 @@ public class ordenarArrays {
         }
 
 
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " ");
-        }
     }
 }
