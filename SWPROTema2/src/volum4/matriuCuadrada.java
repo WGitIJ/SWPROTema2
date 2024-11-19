@@ -1,3 +1,4 @@
+
 //* Crea una classe que defineixi una matriu quadrada, pe 4x4, i:
 //* 1.Inicialitza-la de forma que cada casella tengui la suma de les seves coordenades.
 //? A lo que se refiere a que la suma de las filas como la de las columnas de el mismo resultado.
@@ -18,9 +19,42 @@ public class matriuCuadrada {
 
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length; j++) {
-                System.out.print(" | ");System.out.print (array[i][j]); System.out.print(" | ");
+                System.out.print(" | ");
+                System.out.print (array[i][j]);
+                System.out.print(" | ");
             }
             System.out.println(" ");
         }
+
+        //Mostrar diagonal principal
+        System.out.print("La diagonal principal esta formada por: ");
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array.length; j++) {
+                if (i==j){
+                    System.out.print(array[i][j] + " ");
+                }
+            }
+        }
+        System.out.println();
+
+        //Mostrar diagonal secundaria
+        System.out.printf("La diagonal secundaria esta formada por: ");
+        for (int i = 0; i <array.length ; i++) {
+            for (int j = array.length - 1; j <array.length; j--) {
+                if (j+i ==3){
+                    System.out.print(array[i][j] + " ");
+                }
+            }
+        }
+
+        //! Forma optimizada de sacar la diagonal
+        for (int i = 0; i < array.length; i++) {
+            int j = 3 - i;
+            if (j>=0 && j< array.length){
+                System.out.print(array[i][j]);
+            }
+        }
+
+
     }
 }

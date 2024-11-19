@@ -8,40 +8,6 @@ import java.util.Arrays;
 
 public class ordenarArrays {
     public static void main(String[] args) {
-        arrayOrdenada();
-//        int numAleatorio;
-//        int min = 0;
-//        int tamanoAleatorio = 2+(int)(Math.random()*((4-2)+1));
-//        int[] array = new int[tamanoAleatorio];
-//        int[] arrayOrdenado = new int[tamanoAleatorio];
-//
-//        for (int i = 0; i < array.length; i++) {
-//            numAleatorio = (int)(Math.random()*20+1);
-//            array[i] = numAleatorio;
-//        }
-//        System.out.println("Array sin ordenar");
-//        for (int i = 0; i < array.length; i++) {
-//            System.out.print(array[i] + " ");
-//        }
-//        System.out.println(" ");
-//        for (int i = 0; i < array.length; i++) {
-//            min = array[i];
-//            if (array[i]<min){
-//                min = array[i];
-//            } else {
-//                if (array[i]<min) {
-//                    min = min;
-//                }
-//            }
-//        }
-//
-//        for (int i = 0; i < arrayOrdenado.length; i++) {
-//            System.out.print(array[i] + " ");
-//        }
-//        System.out.println("El numero más pequeño es: " + min);
-    }
-
-    public static void arrayOrdenada(){
         int tamanoAleatorio = 2+(int)(Math.random()*((4-2)+1));
         int numAleatorio;
         int[] array = new int[tamanoAleatorio];
@@ -54,7 +20,7 @@ public class ordenarArrays {
         }
         System.out.println("Este es el array formado de manera aleatoria: " + Arrays.toString(array));
 
-        //Ordenar Array
+        //Ordenar Array utilizando el metodo Buble Sort
         if (array.length >= 3){
             for (int i = 0; i < array.length-1; i++) {
                 for (int j = 0; j < array.length - i - 1; j++) {
