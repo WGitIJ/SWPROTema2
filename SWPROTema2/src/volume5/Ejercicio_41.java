@@ -41,5 +41,6 @@ public class Ejercicio_41 {
 
         System.out.println(Arrays.toString(alumnos));
         System.out.println(Arrays.toString(notasProgramacion));
+        x
     }
 }
