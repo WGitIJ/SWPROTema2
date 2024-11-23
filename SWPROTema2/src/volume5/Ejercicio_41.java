@@ -9,8 +9,8 @@ public class Ejercicio_41 {
     public static void complicarseVida(){
         int alumnos = 3;
         int modulos = 6;
-        int[][] notas = new int[modulos][alumnos];
         int[] notasProgramacion = {1, 2, 3};
+        int contador = 0;
 
         for (int i = 0; i < modulos; i++) {
             for (int j = 0; j < alumnos+1; j++) {
@@ -20,13 +20,14 @@ public class Ejercicio_41 {
                 }else if (i!=0 && j==0){
                     System.out.print("Modulo"+i);
                 }  else if (i==1 && j!=0) {
-                    for (int k = 0; k < 1; k++) {
-                        System.out.print("   "+ notasProgramacion[0] + "   ");
+                    for(int k = 0; k < notasProgramacion.length; k++) {
+                        System.out.print("   " + notasProgramacion[contador] + "   ");
+                        contador++;
+                        break;
                     }
                 }else{
                     System.out.print("   X   ");
                 }
-
                 System.out.print(" | ");
             }
             System.out.println(" ");

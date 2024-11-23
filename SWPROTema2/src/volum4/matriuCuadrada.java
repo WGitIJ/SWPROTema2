@@ -12,7 +12,7 @@ public class matriuCuadrada {
         int[][] array = new int[4][4];
         //? La i son las filas y la j son las columnas
         for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length; j++) {
+        for (int j = 0; j < array.length; j++) {
                 array[i][j] = i+j;
             }
         }
@@ -46,13 +46,17 @@ public class matriuCuadrada {
                 }
             }
         }
+        System.out.println();
 
         //! Forma optimizada de sacar la diagonal
+        System.out.println("-------------------- Forma optimizada de sacar diagonal --------------------");
+        System.out.printf("La diagonal secundaria esta formada por: ");
         for (int i = 0; i < array.length; i++) {
             int j = 3 - i;
             if (j>=0 && j< array.length){
-                System.out.print(array[i][j]);
+                System.out.print(array[i][j] + " ");
             }
+
         }
 
 
