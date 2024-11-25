@@ -1,46 +1,53 @@
 package volume5;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Ejercicio_41 {
     public static void main(String[] args) {
-        complicarseVida();
-    }
-    public static void complicarseVida(){
-        int alumnos = 3;
-        int modulos = 6;
-        int[][] notas = new int[modulos][alumnos];
-        int[] notasProgramacion = {1, 2, 3};
-        int contador = 0;
+        Scanner sc = new Scanner(System.in);
+        int nAlumnos = 0;
+        int nModulos = 0;
+        String[] names = new String[0];
+        String[] modulos = new String[0];
 
-        for (int i = 0; i < modulos; i++) {
-            for (int j = 0; j < alumnos+1; j++) {
-                System.out.print(" | ");
-                if (i==0 && j!=0){
-                    System.out.print("Alumno"+j);
-                }else if (i!=0 && j==0){
-                    System.out.print("Modulo"+i);
-                }  else if (i==1 && j!=0) {
-                    for (int k = 0; k < notasProgramacion.length; k++) {
-                        System.out.print("   "+ notasProgramacion[0+contador] + "   ");
-                        contador++;
-                        break;
-                    }
-                }else{
-                    System.out.print("   X   ");
-                }
 
-                System.out.print(" | ");
-            }
-            System.out.println(" ");
+        do {
+            System.out.print("Introduce el número de alumnos: ");
+             nAlumnos = sc.nextInt();
+            names = new String[nAlumnos];
+
+            System.out.print("Introduce el número de modulos: ");
+            nModulos = sc.nextInt();
+            modulos = new String[nModulos];
+        } while (nAlumnos != nModulos);
+
+
+        for (int i = 1; i < nAlumnos + 1; i++) {
+            System.out.print("Introduce el nombre del alumno " + i + ": ");
+            String name = sc.next();
+            names[i-1] = name;
         }
-    }
-    public static void prueba(){
-        String[] alumnos = {"Wisdom", "Samu", "Dani"};
-        int[] notasProgramacion = {8,7,6};
 
-        System.out.println(Arrays.toString(alumnos));
-        System.out.println(Arrays.toString(notasProgramacion));
-        x
+        for (int i = 0; i < nModulos; i++) {
+            System.out.print("Introduce el nombre del modulo " + i + ": ");
+            String modulo = sc.next();
+            modulos[i] = modulo;
+        }
+        int[] calificaciones = new int[nAlumnos * nModulos];
+        double[] nProgramacion = new double[names.length];
+        for (int i = 0; i < nModulos; i++) {
+            for (int j = 0; j < nAlumnos  ; j++) {
+                System.out.println("Introduce la nota de " + modulos[i] + "de " + names[j] + ": ");
+                double rProgramacion = sc.nextDouble();
+                nProgramacion[j] = rProgramacion;
+            }
+            for (int j = 0; j < nProgramacion.length; j++) {
+
+            }
+
+        }
+
+        System.out.println(Arrays.toString(nProgramacion));
     }
 }

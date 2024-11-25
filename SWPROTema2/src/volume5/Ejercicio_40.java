@@ -12,20 +12,6 @@ import java.util.Scanner;
 public class Ejercicio_40 {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
-        prueba();
-//        int contador = 0;
-//        String[] alumnos = new String[3];
-//        do{
-//            System.out.println("Introduce el nombre del alumno");
-//            String alumno = sc.next();
-//            alumnos[contador] = alumno;
-//            contador++;
-//        } while (contador < 3);
-//
-//        System.out.println(Arrays.toString(alumnos));
-    }
-
-    public static void prueba(){
         String[] alumnos = new String[2];
         Double[] notas = new Double[2];
         for (int i = 0; i < alumnos.length; i++) {
@@ -37,8 +23,10 @@ public class Ejercicio_40 {
             notas[i] = nota;
         }
         for (int i = 0; i < alumnos.length; i++) {
-            System.out.println(alumnos[i] + " score is: " + notas[i]);
+            System.out.println(alumnos[i] + " score for module " + i + " is " + notas[i]);
         }
 
     }
 }
+
+
