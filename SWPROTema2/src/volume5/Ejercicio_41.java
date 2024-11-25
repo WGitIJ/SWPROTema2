@@ -43,7 +43,6 @@ public class Ejercicio_41 {
                 nProgramacion[j] = rProgramacion;
             }
             for (int j = 0; j < nProgramacion.length; j++) {
-
             }
 
         }
