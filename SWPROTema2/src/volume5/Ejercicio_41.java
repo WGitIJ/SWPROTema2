@@ -40,7 +40,7 @@ public class Ejercicio_41 {
                 System.out.println("De " + modulos[j] + ": ");
                 for (int k = 0; k < nExamenes; k++) {
                     System.out.print("Examen " + k + ": ");
-                    califications[i][j] = sc.nextDouble();
+                    califications[j][k] = sc.nextDouble();
                 }
 
             }
@@ -63,7 +63,12 @@ public class Ejercicio_41 {
                     for (int i = 0; i < names.length; i++) {
                         System.out.println(i+1 + ". " + names[i]);
                     }
+                    System.out.print("Selecciona un alumno: ");
+                    int indiceAlumno = sc.nextInt();
 
+                    for (int i = 0; i < modulos.length; i++) {
+
+                    }
                     break;
                 case 2:
                     System.out.println("\n Lista de modulos: ");
