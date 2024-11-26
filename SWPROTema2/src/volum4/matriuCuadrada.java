@@ -12,7 +12,7 @@ public class matriuCuadrada {
         int[][] array = new int[4][4];
         //? La i son las filas y la j son las columnas
         for (int i = 0; i < array.length; i++) {
-        for (int j = 0; j < array.length; j++) {
+            for (int j = 0; j < array.length; j++) {
                 array[i][j] = i+j;
             }
         }
