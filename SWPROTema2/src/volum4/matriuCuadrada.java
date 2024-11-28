@@ -37,6 +37,13 @@ public class matriuCuadrada {
         }
         System.out.println();
 
+
+        //!Forma optimizada de sacar la diagonal principal
+        System.out.println("-------------------- Forma optimizada de sacar diagonal --------------------");
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i][i] + " ");
+        }
+        System.out.println();
         //Mostrar diagonal secundaria
         System.out.printf("La diagonal secundaria esta formada por: ");
         for (int i = 0; i <array.length ; i++) {
@@ -48,7 +55,7 @@ public class matriuCuadrada {
         }
         System.out.println();
 
-        //! Forma optimizada de sacar la diagonal
+        //! Forma optimizada de sacar la diagonal secundaria
         System.out.println("-------------------- Forma optimizada de sacar diagonal --------------------");
         System.out.printf("La diagonal secundaria esta formada por: ");
         for (int i = 0; i < array.length; i++) {
