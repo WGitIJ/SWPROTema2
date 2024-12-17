@@ -5,7 +5,7 @@ package volum1;
 public class notasSwitch {
     public static void main(String[] args) {
         int nota = 2;
-        switch (nota){
+        switch (nota) {
             case 1:
                 System.out.println("Suspendido");
                 break;

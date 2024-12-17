@@ -4,7 +4,7 @@
 
 package volum4;
 
-public class comparacionArrays  {
+public class comparacionArrays {
     public static void main(String[] args) {
         int[] arrayA = new int[10];
         int[] arrayB = new int[10];
@@ -20,19 +20,19 @@ public class comparacionArrays  {
             System.out.println(arrayB[i]);
         }
 
-        if (arrayA == arrayB){
+        if (arrayA == arrayB) {
             sonIguales = true;
-        } else{
+        } else {
             sonIguales = false;
         }
         System.out.println("¿Son iguales? " + sonIguales);
 
         //Comparación correcta de Arrays
         for (int i = 0; i < arrayA.length; i++) {
-            if (arrayA[i]!=arrayB[i]){
+            if (arrayA[i] != arrayB[i]) {
                 sonIguales = false;
                 break;
-            } else{
+            } else {
                 sonIguales = true;
             }
         }

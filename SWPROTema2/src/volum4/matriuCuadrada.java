@@ -13,14 +13,14 @@ public class matriuCuadrada {
         //? La i son las filas y la j son las columnas
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length; j++) {
-                array[i][j] = i+j;
+                array[i][j] = i + j;
             }
         }
         //Imprimo
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length; j++) {
                 System.out.print(" | ");
-                System.out.print (array[i][j]);
+                System.out.print(array[i][j]);
                 System.out.print(" | ");
             }
             System.out.println(" ");
@@ -30,7 +30,7 @@ public class matriuCuadrada {
         System.out.print("La diagonal principal esta formada por: ");
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length; j++) {
-                if (i==j){
+                if (i == j) {
                     System.out.print(array[i][j] + " ");
                 }
             }
@@ -46,9 +46,9 @@ public class matriuCuadrada {
         System.out.println();
         //Mostrar diagonal secundaria
         System.out.printf("La diagonal secundaria esta formada por: ");
-        for (int i = 0; i <array.length ; i++) {
-            for (int j = array.length - 1; j <array.length; j--) {
-                if (j+i ==3){
+        for (int i = 0; i < array.length; i++) {
+            for (int j = array.length - 1; j < array.length; j--) {
+                if (j + i == 3) {
                     System.out.print(array[i][j] + " ");
                 }
             }
@@ -60,7 +60,7 @@ public class matriuCuadrada {
         System.out.printf("La diagonal secundaria esta formada por: ");
         for (int i = 0; i < array.length; i++) {
             int j = 3 - i;
-            if (j>=0 && j< array.length){
+            if (j >= 0 && j < array.length) {
                 System.out.print(array[i][j] + " ");
             }
 

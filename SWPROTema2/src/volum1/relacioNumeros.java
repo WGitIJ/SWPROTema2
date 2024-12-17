@@ -7,11 +7,11 @@ public class relacioNumeros {
         int a = 4;
         int b = 3;
 
-        if (a>b){
+        if (a > b) {
             System.out.printf("A>B");
-        } else if (b>a) {
+        } else if (b > a) {
             System.out.println("B>A");
-        } else{
+        } else {
             System.out.println("A=B");
         }
     }

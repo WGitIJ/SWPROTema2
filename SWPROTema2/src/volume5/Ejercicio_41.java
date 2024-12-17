@@ -56,16 +56,16 @@ public class Ejercicio_41 {
             System.out.print("Selecciona una opció: ");
             int opcio = sc.nextInt();
 
-            switch (opcio){
+            switch (opcio) {
 
                 case 1:
                     System.out.println("\n Lista de alumnos: ");
                     for (int i = 0; i < names.length; i++) {
-                        System.out.println(i+1 + ". " + names[i]);
+                        System.out.println(i + 1 + ". " + names[i]);
                     }
                     System.out.print("Selecciona un alumno: ");
                     int indiceAlumno = sc.nextInt();
-                    System.out.println(names[indiceAlumno-1] + "ha sacado: ");
+                    System.out.println(names[indiceAlumno - 1] + "ha sacado: ");
 
                     for (int i = 0; i < modulos.length; i++) {
                         System.out.println(modulos[i] + ": ");

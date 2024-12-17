@@ -8,11 +8,11 @@ public class numMajor {
         int a = 0;
         int b = 5;
 
-        if (a>b){
+        if (a > b) {
             System.out.println("El mayor es A");
-        } else if (b<a) {
+        } else if (b < a) {
             System.out.println("El mayor es B");
-        }else {
+        } else {
             System.out.println("Son iguales");
         }
     }

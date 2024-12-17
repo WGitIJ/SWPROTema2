@@ -9,7 +9,7 @@ public class mostrarNumerosDoWhile {
         int inici = 0;
         int fi = 10;
 
-        do{
+        do {
             System.out.println(inici);
             inici++;
         } while (inici <= fi);

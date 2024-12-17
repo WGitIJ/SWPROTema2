@@ -8,6 +8,6 @@ public class conversioVelocitat {
         float ms = v * 1000 / 3600;
 
         System.out.println();
-        System.out.println(v+ "km/h es igual a "+ms + "m/s");
+        System.out.println(v + "km/h es igual a " + ms + "m/s");
     }
 }

@@ -9,17 +9,17 @@ public class ordenaTresNumeros {
         int c = 1;
         int aux;
 
-        if (a>b){
+        if (a > b) {
             aux = b;
             b = a;
             a = aux;
         }
-        if (b>c) {
+        if (b > c) {
             aux = c;
             c = b;
             b = aux;
         }
-        if (a>b){
+        if (a > b) {
             aux = b;
             b = a;
             a = aux;

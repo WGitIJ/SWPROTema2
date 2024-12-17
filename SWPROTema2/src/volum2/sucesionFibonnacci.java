@@ -7,12 +7,12 @@ package volum2;
 
 public class sucesionFibonnacci {
     public static void main(String[] args) {
-        int num = 5;
+        int num = 10;
         int fibonnacci = 0;
         int anterior = 0;
         int resultado = 1;
 
-        for (int i = 0; i < num-1; i++) {
+        for (int i = 0; i < num - 1; i++) {
             fibonnacci = anterior + resultado;
             anterior = resultado;
             resultado = fibonnacci;

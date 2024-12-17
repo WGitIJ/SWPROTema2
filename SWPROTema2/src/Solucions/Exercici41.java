@@ -28,7 +28,7 @@ public class Exercici41 {
         System.out.println("Notes");
         for (int i = 0; i < MAX_ALUMNES; i++) {
             for (int j = 0; j < MAX_ASSIGNATURES; j++) {
-                System.out.print(notes[i][j]+"\t");
+                System.out.print(notes[i][j] + "\t");
             }
             System.out.println("");
         }

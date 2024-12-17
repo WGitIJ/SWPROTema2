@@ -6,15 +6,15 @@ package volum4;
 
 public class longitudArrayRandom {
     public static void main(String[] args) {
-        int numAleatorio = 2+(int)(Math.random()+1);
-        int [] array = new int[numAleatorio];
-        numAleatorio = 2+(int)(Math.random()+1);
-        int [] arrayB = new int[numAleatorio];
+        int numAleatorio = 2 + (int) (Math.random() + 1);
+        int[] array = new int[numAleatorio];
+        numAleatorio = 2 + (int) (Math.random() + 1);
+        int[] arrayB = new int[numAleatorio];
         boolean sonIguales;
 
-        if (arrayB == array){
+        if (arrayB == array) {
             sonIguales = true;
-        } else{
+        } else {
             sonIguales = false;
         }
 

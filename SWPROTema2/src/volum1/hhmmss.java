@@ -5,16 +5,16 @@ package volum1;
 
 public class hhmmss {
     public static void main(String[] args) {
-       int sec = 80000;
-       int min = sec/60;
-       int horas = 0;
-       if (min>0) {
-        sec = sec%60;
-       }
-       if (min>60) {
-           horas = min/60;
-           min = min%60;
+        int sec = 80000;
+        int min = sec / 60;
+        int horas = 0;
+        if (min > 0) {
+            sec = sec % 60;
         }
-        System.out.println(horas + " Horas "  + min +" Minutos " + sec + " Segundos ");
+        if (min > 60) {
+            horas = min / 60;
+            min = min % 60;
+        }
+        System.out.println(horas + " Horas " + min + " Minutos " + sec + " Segundos ");
     }
 }

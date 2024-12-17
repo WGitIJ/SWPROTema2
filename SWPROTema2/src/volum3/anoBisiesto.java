@@ -14,7 +14,7 @@ public class anoBisiesto {
         System.out.print("Introduce un año: ");
         int year = sc.nextInt();
 
-        switch (mes){
+        switch (mes) {
             case 1:
             case 3:
             case 5:
@@ -31,10 +31,10 @@ public class anoBisiesto {
                 System.out.println("Tiene 30 dias");
                 break;
             case 2:
-                if (year%400 == 0 || (year%4==0 && year%100!=0)){
+                if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) {
                     System.out.println("Tienen 29 dias");
                     break;
-                } else{
+                } else {
                     System.out.println("Tiene 28 días");
                     break;
                 }

@@ -8,7 +8,7 @@ public class mostrarNumerosWhile {
         int inici = 0;
         int fi = 10;
 
-        while (inici<=fi){
+        while (inici <= fi) {
             System.out.println(inici);
             inici++;
         }

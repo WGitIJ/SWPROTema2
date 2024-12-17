@@ -7,8 +7,8 @@ public class esPrimoWhile {
         int i = 2;
         boolean esPrimo = true;
 
-        while (i<num){
-            if (num%i==0){
+        while (i < num) {
+            if (num % i == 0) {
                 esPrimo = false;
                 break;
             }

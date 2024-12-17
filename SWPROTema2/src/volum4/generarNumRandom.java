@@ -9,18 +9,18 @@ public class generarNumRandom {
     public static void main(String[] args) {
         int max = 5;
         int min = 0;
-        int[] array = new int[max+1];
+        int[] array = new int[max + 1];
         int contador = 0;
-        int numAleatorio = (int) (Math.random()*((max+min)+1));
-        for (int i = 0; i <= max;i++) {
-            while (numAleatorio != i){
+        int numAleatorio = (int) (Math.random() * ((max + min) + 1));
+        for (int i = 0; i <= max; i++) {
+            while (numAleatorio != i) {
                 contador++;
-                numAleatorio = (int) (Math.random()*((max+min)+1));
+                numAleatorio = (int) (Math.random() * ((max + min) + 1));
                 array[i] = numAleatorio;
             }
         }
         System.out.println(Arrays.toString(array));
-        System.out.println("Intentos: "+ contador);
+        System.out.println("Intentos: " + contador);
 
     }
 }

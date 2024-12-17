@@ -2,6 +2,7 @@
 //* mitjana d'aquests números (sense incloure el 0 final).
 
 package volum2;
+
 import java.util.Scanner;
 
 public class exitBucleInput {
@@ -16,8 +17,8 @@ public class exitBucleInput {
             num = sc.nextInt();
             suma = suma + num;
             contador++;
-        } while (num!=0);
-        mitjana = suma/(contador-1);
+        } while (num != 0);
+        mitjana = suma / (contador - 1);
         System.out.println("La mitjana es: " + mitjana);
         System.out.println("Hasta pronto!!");
     }

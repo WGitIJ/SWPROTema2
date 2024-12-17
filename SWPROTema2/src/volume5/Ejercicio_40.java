@@ -11,6 +11,7 @@ import java.util.Scanner;
 
 public class Ejercicio_40 {
     static Scanner sc = new Scanner(System.in);
+
     public static void main(String[] args) {
         String[] alumnos = new String[2];
         Double[] notas = new Double[2];

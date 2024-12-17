@@ -4,10 +4,10 @@ package volum4;
 public class mostrarArray {
     public static void main(String[] args) {
         int[] num;
-        num = new int [10];
+        num = new int[10];
 
         for (int i = 0; i < num.length; i++) {
-            num[i] = i+1;
+            num[i] = i + 1;
             System.out.println(num[i]);
         }
     }

@@ -12,7 +12,7 @@ public class diasMes {
         System.out.print("Introduce el mes: ");
         int mes = sc.nextInt();
 
-        switch (mes){
+        switch (mes) {
             case 1:
             case 3:
             case 5:

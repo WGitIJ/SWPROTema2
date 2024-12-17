@@ -9,7 +9,7 @@ public class intercanviValors {
         int b = 7;
         int aux;
 
-        System.out.println("Abans de intervanciar " +"A= " + a + " B= " + b);
+        System.out.println("Abans de intervanciar " + "A= " + a + " B= " + b);
 
         aux = a;
         a = b;

@@ -7,13 +7,13 @@ public class numerosPares {
         int inici = 3;
         int fi = 10;
 
-        if (inici%2==0){
-            for (int i = inici; i <= fi ; i+=2) {
+        if (inici % 2 == 0) {
+            for (int i = inici; i <= fi; i += 2) {
                 System.out.println(i);
             }
-        } else{
-            inici+=1;
-            for (int i = inici; i <= fi; i+=2) {
+        } else {
+            inici += 1;
+            for (int i = inici; i <= fi; i += 2) {
                 System.out.println(i);
             }
         }

@@ -5,17 +5,19 @@ import java.util.Scanner;
 
 public class Ejercicio_41_prueba {
     static Scanner sc = new Scanner(System.in);
+
     public static void main(String[] args) {
         System.out.println("¿Cuántos alumnos tienes?");
         complicarseVida();
     }
-    public static void complicarseVida(){
+
+    public static void complicarseVida() {
         int alumnos = 3;
         int nModulos = 3;
 
         String[] modulos = new String[nModulos];
         for (int i = 0; i < modulos.length; i++) {
-            System.out.print("Introduce el nombre del modulo " + i + ": " );
+            System.out.print("Introduce el nombre del modulo " + i + ": ");
             String modulo = sc.next();
             modulos[i] = modulo;
             System.out.println();
@@ -25,9 +27,10 @@ public class Ejercicio_41_prueba {
 
 
     }
-    public static void prueba(){
+
+    public static void prueba() {
         String[] alumnos = {"Wisdom", "Samu", "Dani"};
-        int[] notasProgramacion = {8,7,6};
+        int[] notasProgramacion = {8, 7, 6};
 
         System.out.println(Arrays.toString(alumnos));
         System.out.println(Arrays.toString(notasProgramacion));
@@ -35,7 +38,7 @@ public class Ejercicio_41_prueba {
     }
 
 
-    public static void optimizado(){
+    public static void optimizado() {
         String[] names = new String[3];
         int[] notasProgramacion = new int[3];
         String[][] tablaNotas = new String[names.length][notasProgramacion.length];
@@ -48,39 +51,6 @@ public class Ejercicio_41_prueba {
         System.out.println(Arrays.toString(names));
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //for (int i = 0; i < modulos; i++) {

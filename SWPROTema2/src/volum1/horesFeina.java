@@ -10,10 +10,10 @@ public class horesFeina {
         float precioHora = 30;
         int horasExtra = 0;
         float precioExtra = 0;
-        float salario ;
+        float salario;
         float salarioExtra = 0;
 
-        if (horasTrabajadas>40){
+        if (horasTrabajadas > 40) {
             horasExtra = horasTrabajadas - 40;
             salarioExtra = horasExtra * precioHora * 2;
             System.out.println("Salario Extra: " + salarioExtra);

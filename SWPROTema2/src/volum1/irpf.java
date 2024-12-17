@@ -13,18 +13,18 @@ public class irpf {
         double salario = 0;
         double salarioExtra = 0;
 
-        if (horasTrabajadas>40){
+        if (horasTrabajadas > 40) {
             horasExtra = horasTrabajadas - 40;
             salarioExtra = horasExtra * precioHora * 2;
             System.out.println("Salario Extra: " + salarioExtra);
-        } else{
+        } else {
             salario = horasTrabajadas * precioHora + salarioExtra;
         }
 
 
-        if (salario<300){
+        if (salario < 300) {
             salario = salario * 0.90;
-        } else if (salario >= 300 && salario<500) {
+        } else if (salario >= 300 && salario < 500) {
             salario = salario * 0.80;
         } else {
             salario = salario * 0.7;
