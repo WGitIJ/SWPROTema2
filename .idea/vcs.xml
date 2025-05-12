@@ -3,5 +3,14 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Herencia" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Insurance" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/InsuranceView" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SPPROTema3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SPPROUT22" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SPPROUT22Library" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SPPROUT22jar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SPPROUT24" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/untitled" vcs="Git" />
   </component>
 </project>
